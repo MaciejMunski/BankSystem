@@ -1,0 +1,7 @@
+﻿  AddUserMenu.cpp
+  DataBase.cpp
+  main.cpp
+C:\Users\HP\source\repos\BankSystem\BankSystem\main.cpp(93): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\HP\source\repos\BankSystem\BankSystem\main.cpp(101): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating Code...
+  BankSystem.vcxproj -> C:\Users\HP\source\repos\BankSystem\Debug\BankSystem.exe

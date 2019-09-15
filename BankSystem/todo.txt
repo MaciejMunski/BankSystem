@@ -1,0 +1,28 @@
+System bankowy do ktorego bedzie miala dostep okreslona grupa uzytkownikow ktora otrzyma dostep po otrzymaniu wczesniejszej zgody.
+
+Po odpaleniu widzimy ekran logowania.
+Uzytkownicy loguja sie numerem uzytkownika i haslem
+Uzytkownicy sa podzieleni na grupy uprawnien: Regular, Admin
+Proces tworzenia konta:
+	podajemy dane personalne
+	podajemy has³o oraz zatwierdzamy has³o
+	konto jest tworzone, ale jest nieaktywne
+	Admin musi zatwierdziæ u¿ytkownika
+	nastêpnie mo¿emy siê logowaæ
+Regular user mo¿e:
+	logowaæ siê
+	wylogowaæ
+	zmieniæ swoje dane personalne
+	zmieniæ has³o
+	przegl¹daæ dane personalne
+	sprawdziæ stan konta
+	przegl¹daæ historiê transakcji
+	wys³aæ przelew
+Admin mo¿e:
+	logowaæ siê
+	wylogowaæ
+	zmieniæ has³o
+	zatwierdziæ u¿ytkownika
+	usun¹æ u¿ytkownika
+	aktywowaæ/deaktywowaæ u¿ytkownika
+	zmieniæ has³o dowolnego u¿ytkownika (ale nie innego Admina)

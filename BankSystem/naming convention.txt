@@ -1,0 +1,11 @@
+class / struct names: PascalCase
+functions / methods: camelCase
+class / struct fields: camelCase
+	private fields: _camelCase
+constants / macros: UPPER_CASE
+local variables: camelCase
+
+
+	field: name, getter: getName()
+	field: _name, getter: name()
+	field: m_name, getter: name()
