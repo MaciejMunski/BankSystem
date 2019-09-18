@@ -10,13 +10,6 @@
 class User
 {
 public:
-	//enum (anumeration - typ wuliczeniowy, wart obracajs sie w obrebie kilku scisle okreslonych, 
-	//tutaj to regular i admin)
-	//defniuje dwie stale wartosci, ktore nazyw sie regular i admin, sa one stale niezmienialne
-	//do tych nazw przypisywane sa wartosci ergular to 0 admin to 1, przypisywane sa kolejne wartosc 
-	//i poczawszy od zera. Jest wyzej bo kompilator musi wiedziec pozniej co to jest Type.
-	//do sprawdzenia wartosci enuma najlepiej uzyc instrukcji switch, wszystkie wartosci pojawiaja sie w casach; uniknie sie wtedy 
-	//warunku domyslnego ktory nie jest tak naprawde ligiczny
 	
 	enum Type {
 		REGULAR, ADMIN
